@@ -11,7 +11,7 @@ public class HomeController {
     // spring-boot:run -Dspring-boot.run.fork=false -Dspring-boot.run.profiles=dev
     @GetMapping("/api/v1/admin/khanhdemo")
     public ResponseEntity homepage() {
-        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Not avatar or logo ");
+        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("222 Not avatar or logo 222 ");
 //        return "index";  // Trả về trang index.html
     }
 
